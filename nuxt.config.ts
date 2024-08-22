@@ -12,6 +12,7 @@ export default defineNuxtConfig({
   imports: {
     autoImport: false,
   },
-  modules: ["@nuxtjs/tailwindcss"],
-  compatibilityDate: "2024-04-03",
+  modules: ["@nuxt/content", "@nuxtjs/tailwindcss", "@pinia/nuxt", "@pinia-plugin-persistedstate/nuxt"],
+  css: ["github-markdown-css/github-markdown.css", "github-markdown-css/github-markdown-light.css", "github-markdown-css/github-markdown-dark.css"],
+  compatibilityDate: "2024-08-21",
 });

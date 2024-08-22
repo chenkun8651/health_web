@@ -2,11 +2,7 @@
   <div :class="classMeanBox">
     <nav :class="classNav">
       <ul :class="classUl">
-        <li
-          class="mx-2 p-2 text-black cursor-pointer"
-          v-for="item in meanList"
-          @click="router"
-        >
+        <li class="mx-2 p-2 text-black cursor-pointer" v-for="item in meanList" @click="router">
           {{ item.name }}
         </li>
       </ul>
